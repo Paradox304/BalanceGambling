@@ -1,6 +1,6 @@
 # BalanceGambling
 
-##### How to play
+##### How it works
 You can gamble your uconomy balance and set the multiplier. Chance of the gamble working depends upon the multiplier and can be set in the config, player cant multiply if that multiplier isn't set in the config.
 
 ##### Commands
