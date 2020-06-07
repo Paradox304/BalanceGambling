@@ -17,7 +17,7 @@ namespace BalanceGambling
             Instance = this;
 
             Logger.Log("BalanceGambling plugin has been loaded");
-            Logger.Log("Version: 1.0");
+            Logger.Log("Version: 1.1");
             Logger.Log("Made by Paradox");
         }
 

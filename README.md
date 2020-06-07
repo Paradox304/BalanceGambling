@@ -6,4 +6,4 @@ You can gamble your uconomy balance and set the multiplier. Chance of the gamble
 ##### Commands
 /gamble (amount) (multiplier) = Gamble your money for the amount and how much you want to multiply it. (Permission: gamble)
 
-You can get the plugin from here: https://github.com/Paradox304/BalanceGambling/releases/tag/1.0
+You can get the plugin from here: https://github.com/Paradox304/BalanceGambling/releases/tag/1.1
