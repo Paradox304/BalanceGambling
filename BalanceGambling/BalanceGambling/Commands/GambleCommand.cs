@@ -30,7 +30,7 @@ namespace BalanceGambling.Commands
             UnturnedPlayer player = caller as UnturnedPlayer;
 
             // Check Command Syntax
-            if (command.Length > 2 || command.Length == 0)
+            if (command.Length > 2 || command.Length == 0 || command.Length == 1)
             {
                 UnturnedChat.Say(caller, $"Correct Usage: {Syntax}");
                 return;
