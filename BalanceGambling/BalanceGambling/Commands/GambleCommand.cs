@@ -86,12 +86,10 @@ namespace BalanceGambling.Commands
                 int multipliedAmount = (amount * multiplier) - amount;
                 Uconomy.Instance.Database.IncreaseBalance(player.CSteamID.ToString(), multipliedAmount);
                 UnturnedChat.Say(caller, Main.Instance.Translate("Won", multipliedAmount));
-                return;
             } else
             {
                 Uconomy.Instance.Database.IncreaseBalance(player.CSteamID.ToString(), -amount);
                 UnturnedChat.Say(caller, Main.Instance.Translate("Lost",  amount));
-                return;
             }
         }
     }
